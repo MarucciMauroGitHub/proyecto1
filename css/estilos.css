@@ -10,8 +10,30 @@ body {
 }
 
 header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: burlywood;
     height: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+nav > div {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: honeydew;
+    box-shadow: 2px 2px 3px black;
+    text-transform: uppercase;
 }
 
 section {
