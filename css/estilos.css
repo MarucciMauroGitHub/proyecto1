@@ -48,3 +48,15 @@ footer {
     height: 80px;
     margin-top: auto;
 }
+
+
+address{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    color:white;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+    
+}
