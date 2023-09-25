@@ -56,3 +56,13 @@ nav > img {
     padding: 2px;
     box-shadow: 3px 3px 3px black;
 }
+
+address {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    color: white;
+    background-color: black;
+    width: 100%;
+    justify-content: center;
+}
